@@ -8,7 +8,7 @@ The project was born from a common problem in digital design education: **low-co
 
 This board seeks to offer an **affordable, open, and reusable** solution, allowing students to focus on **RTL design and logic**, rather than wiring or external adapters.
 
-Board size: ** 80x100 mm** 
+Board size: **80x100 mm** 
 
 ---
 
