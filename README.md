@@ -2,72 +2,62 @@
 
 ![FPGA LAB – Prototype in Use](images/picture03.jpeg)
 
-La **FPGA Universal Expansion Board**, también conocida como **FPGA LAB**, es una
-tarjeta de expansión con periféricos diseñada principalmente para **prácticas
-educativas con FPGAs**, aunque también puede utilizarse para pruebas básicas con
-microcontroladores.
+The **FPGA Universal Expansion Board**, also known as **FPGA LAB**, is a peripheral expansion board designed primarily for **educational FPGA practices**, although it can also be used for basic microcontroller testing.
 
-El proyecto nace a partir de una problemática común en la enseñanza del diseño
-digital: las **placas de desarrollo de bajo costo suelen carecer de periféricos
-suficientes** para prácticas de introducción a la lógica digital y electrónica
-digital, mientras que las placas con periféricos completos suelen tener un
-**costo elevado**.
+The project was born from a common problem in digital design education: **low-cost development boards often lack sufficient peripherals** for introductory digital logic and digital electronics practices, while boards with complete peripherals tend to have a **high cost**.
 
-Esta tarjeta busca ofrecer una solución **económica, abierta y reutilizable**,
-permitiendo que el estudiante se concentre en el **diseño RTL y la lógica**, y no
-en el cableado o adaptadores externos.
+This board seeks to offer an **affordable, open, and reusable** solution, allowing students to focus on **RTL design and logic**, rather than wiring or external adapters.
 
 ---
 
-## ¿Por qué “Universal”?
+## Why “Universal”?
 
-El término *universal* no se refiere a compatibilidad con un modelo específico de
-FPGA, sino a que la tarjeta:
+The term *universal* does not refer to compatibility with a specific FPGA model, but rather that the board:
 
-- Opera completamente a **3.3 V**
-- Expone las señales mediante **headers estándar**
-- No depende de un fabricante o ecosistema específico
+- Operates entirely at **3.3 V**
+- Exposes signals via **standard headers**
+- Does not depend on a specific manufacturer or ecosystem
 
-Esto permite su uso con:
-- FPGAs de distintos fabricantes
-- Microcontroladores
-- Proyectos generales de lógica digital
+This allows its use with:
+- FPGAs from different manufacturers
+- Microcontrollers
+- General digital logic projects
 
-Originalmente, la tarjeta fue planteada para su uso con:
+Originally, the board was intended for use with:
 - **Intel Cyclone IV**
 - **Gowin Tang Nano 9K**
 
 ---
 
-## Características generales
+## General Features
 
-- 16 switches deslizables para entrada digital
-- LEDs de usuario con resistencias limitadoras
-- Display de 7 segmentos multiplexado
-- Botones de usuario
-- Headers estándar para conexión de señales
-- Alimentación a 3.3 V
-- Diseño optimizado para bajo costo y fácil fabricación
-
----
-
-## Revisión 1 (Rev.1)
-
-La primera revisión funcionó como **prueba de concepto** y validación del diseño.
-
-### Características Rev.1
-- Alimentación mediante **USB-C**
-- Regulador **AMS1117** para generar 3.3 V
-- 16 switches con resistencias pull-up
-- 4 botones en paralelo con los primeros 4 switches
-- Display de **7 segmentos, 3 dígitos**, ánodo común, multiplexado
-- 8 LEDs de usuario
-- 2 pares de conectores de **3 pines** (señal, 5 V y GND)
-- Operación completa a **3.3 V**
+- 16 slide switches for digital input
+- User LEDs with current-limiting resistors
+- Multiplexed 7-segment display
+- User buttons
+- Standard headers for signal connection
+- 3.3 V power supply
+- Design optimized for low cost and easy manufacturing
 
 ---
 
-## Revisión 1 (Ejemplo de uso, Tajeta con Cyclone IV EP4CE115F29C8N)
+## Revision 1 (Rev.1)
+
+The first revision served as a **proof of concept** and design validation.
+
+### Rev.1 Features
+- Power via **USB-C**
+- **AMS1117** regulator to generate 3.3 V
+- 16 switches with pull-up resistors
+- 4 buttons in parallel with the first 4 switches
+- **7-segment, 3-digit display**, common anode, multiplexed
+- 8 user LEDs
+- 2 pairs of **3-pin** connectors (signal, 5 V, and GND)
+- Full **3.3 V** operation
+
+---
+
+## Revision 1 (Usage Example, Board with Cyclone IV EP4CE115F29C8N)
 
 ![picture02.jpeg](images/picture02.jpeg)
 
@@ -76,69 +66,65 @@ La primera revisión funcionó como **prueba de concepto** y validación del dis
 
 ---
 
-## Revisión 2 (Rev.2)
+## Revision 2 (Rev.2)
 
-La **Rev.2** es una evolución del diseño enfocada en:
-- Mejorar el comportamiento eléctrico
-- Simplificar el uso en laboratorio
+The **Rev.2** is an evolution of the design focused on:
+- Improving electrical behavior
+- Simplifying laboratory use
 
-### Cambios principales en Rev.2
-- Eliminación del conector USB-C
-- Alimentación directa por pin:
-  - Entrada de **5 V** que pasa por un LDO para generar 3.3 V  
-  - o entrada directa de **3.3 V**
-- 10 LEDs de usuario
-- Display de **7 segmentos, 4 dígitos**, ánodo común
-- 16 switches deslizables
-- Switch dedicado de **Power ON**
-- Forzado del apagado por defecto del display para evitar **ghosting**
-- Configuración de LEDs en modo Source para evitar estados indeterminados al encender
+### Main Changes in Rev.2
+- Removal of the USB-C connector
+- Direct pin power supply:
+  - **5 V** input passing through an LDO to generate 3.3 V  
+  - or direct **3.3 V** input
+- 10 user LEDs
+- **7-segment, 4-digit display**, common anode
+- 16 slide switches
+- Dedicated **Power ON** switch
+- Forced default display power-off to avoid **ghosting**
+- LED configuration in Source mode to avoid indeterminate states at power-up
 
-Esta revisión representa la versión **más madura y recomendada** del proyecto.
+This revision represents the **most mature and recommended** version of the project.
 
-Las imágenes correspondientes a esta versión se encuentran en /rev2/images
+Images corresponding to this version are located in /rev2/images
 
 ![pcb_front.png](Rev.2/images/3d_pcb_front.png)
 
 <p align="center">
-  <img src="images/gif01.gif" alt="FPGA LAB – Demo de funcionamiento">
+  <img src="images/gif01.gif" alt="FPGA LAB – Operational demo">
 </p>
 
 ---
 
-## Uso educativo
+## Educational Use
 
-La tarjeta está pensada para prácticas como:
+The board is intended for practices such as:
 
-- Lógica combinacional
-- Contadores y registros
-- Máquinas de estados finitos (FSM)
-- Multiplexado de displays
-- Manejo de entradas mecánicas
-- Introducción al diseño y verificación RTL
+- Combinational logic
+- Counters and registers
+- Finite State Machines (FSM)
+- Display multiplexing
+- Handling mechanical inputs
+- Introduction to RTL design and verification
 
-El objetivo es que el alumno pueda **experimentar directamente con hardware
-real**, manteniendo un entorno de bajo costo y fácil acceso.
-
----
-
-## Fabricación
-
-El diseño está optimizado para:
-- PCB de **2 capas**
-- FR-4 estándar
-- Servicios de fabricación de bajo costo
-- Ensamble manual o en pequeñas series
+The goal is for students to **experiment directly with real hardware**, maintaining a low-cost and easily accessible environment.
 
 ---
 
-## Licencia
+## Manufacturing
 
-Este proyecto es **Open Hardware**.
+The design is optimized for:
+- **2-layer** PCB
+- Standard FR-4
+- Low-cost manufacturing services
+- Manual assembly or small series production
 
-Todos los archivos de diseño de hardware (esquemáticos, PCB y datos de fabricación)
-están licenciados bajo la **CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S v2)**.
+---
 
-Consulta el archivo `LICENSE` para el texto completo de la licencia.
+## License
 
+This project is **Open Hardware**.
 
+All hardware design files (schematics, PCB, and manufacturing data) are licensed under the **CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S v2)**.
+
+See the `LICENSE` file for the full text of the license.
