@@ -1,8 +1,28 @@
-License
+CERN Open Hardware Licence Version 2 – Strongly Reciprocal
 
-This project is Open Hardware.
+Copyright (C) 2025 Sero Lugo
 
-All hardware design files (schematics, PCB layout, and fabrication data)
-are licensed under the CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S v2).
+This CERN Open Hardware Licence Version 2 – Strongly Reciprocal ("CERN-OHL-S")
+is copyright CERN 2020.
 
-See the LICENSE file for full license text.
+This Licence governs the use, modification, and distribution of hardware
+designs, and covers any documentation, files, and information describing
+hardware designs.
+
+You may use, modify, and distribute the Material under the terms of this
+Licence, provided that you comply with the conditions set out below.
+
+This Licence is governed by the laws of Switzerland and the competent courts
+are those of Geneva, Switzerland.
+
+-------------------------------------------------------------------------------
+
+1. Definitions
+
+“Licence” means this CERN Open Hardware Licence Version 2 – Strongly Reciprocal.
+
+“Licensor” means the individual or entity offering the Material under this
+Licence.
+
+“Material” means any documentation, design files, schematics, PCB layouts,
+fabrication data, or other information describing hardware
