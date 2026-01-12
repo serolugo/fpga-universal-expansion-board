@@ -61,7 +61,10 @@ The first revision served as a **proof of concept** and design validation.
 
 ![picture02.jpeg](images/picture02.jpeg)
 
-![FPGA LAB demo](images/gif01.gif)
+<p align="center">
+  <img src="images/gif01.gif" alt="FPGA LAB – Operational demo">
+</p>
+
 
 
 ---
@@ -70,7 +73,7 @@ The first revision served as a **proof of concept** and design validation.
 
 The **Rev.2** is an evolution of the design focused on:
 - Improving electrical behavior
-- Simplifying laboratory use
+- More comfortable switches
 
 ### Main Changes in Rev.2
 - Removal of the USB-C connector
@@ -89,10 +92,6 @@ This revision represents the **most mature and recommended** version of the proj
 Images corresponding to this version are located in /rev2/images
 
 ![pcb_front.png](Rev.2/images/3d_pcb_front.png)
-
-<p align="center">
-  <img src="images/gif01.gif" alt="FPGA LAB – Operational demo">
-</p>
 
 ---
 
