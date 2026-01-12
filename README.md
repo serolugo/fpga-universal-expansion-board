@@ -71,7 +71,7 @@ La primera revisión funcionó como **prueba de concepto** y validación del dis
 
 ![picture02.jpeg](images/picture02.jpeg)
 
-![gif03.gif](images/gif03.gif)
+![FPGA LAB demo](images/gif01.gif)
 
 
 ---
@@ -98,9 +98,11 @@ Esta revisión representa la versión **más madura y recomendada** del proyecto
 
 Las imágenes correspondientes a esta versión se encuentran en /rev2/images
 
-![gif03.gif](rev2/images/3d_pcb_front.png)
+![pcb_front.png](Rev.2/images/3d_pcb_front.png)
 
-![gif03.gif](rev2/images/3d_pcb_back.png)
+<p align="center">
+  <img src="images/gif01.gif" alt="FPGA LAB – Demo de funcionamiento">
+</p>
 
 ---
 
