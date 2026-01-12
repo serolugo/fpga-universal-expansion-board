@@ -25,4 +25,66 @@ are those of Geneva, Switzerland.
 Licence.
 
 “Material” means any documentation, design files, schematics, PCB layouts,
-fabrication data, or other information describing hardware
+fabrication data, or other information describing hardware.
+
+“Source” means the preferred form of the Material for making modifications.
+
+“Product” means any device, hardware, or physical implementation that results
+from the use of the Material.
+
+-------------------------------------------------------------------------------
+
+2. Licence Grant
+
+The Licensor hereby grants you a worldwide, royalty-free, non-exclusive
+licence to use, reproduce, modify, and distribute the Material, and to
+manufacture and distribute Products, under the terms of this Licence.
+
+-------------------------------------------------------------------------------
+
+3. Conditions
+
+You may distribute the Material or Products only if:
+
+a) You provide the complete Source of the Material, including any modifications.
+
+b) You license the Material and any modified versions under this same Licence
+   (CERN-OHL-S v2).
+
+c) You include a copy of this Licence with the distributed Material or Products.
+
+-------------------------------------------------------------------------------
+
+4. Disclaimer
+
+The Material is provided “as is” and without any express or implied warranties,
+including, but not limited to, warranties of merchantability, fitness for a
+particular purpose, or non-infringement.
+
+-------------------------------------------------------------------------------
+
+5. Limitation of Liability
+
+In no event shall the Licensor be liable for any damages arising from the use,
+distribution, or modification of the Material or Products, including but not
+limited to loss of data, loss of profits, or business interruption.
+
+-------------------------------------------------------------------------------
+
+6. Termination
+
+This Licence and the rights granted hereunder will terminate automatically if
+you fail to comply with any of its terms.
+
+-------------------------------------------------------------------------------
+
+7. Applicable Law
+
+This Licence shall be governed by and construed in accordance with the laws of
+Switzerland. Any dispute arising under this Licence shall be subject to the
+exclusive jurisdiction of the courts of Geneva, Switzerland.
+
+-------------------------------------------------------------------------------
+
+End of CERN Open Hardware Licence Version 2 – Strongly Reciprocal
+
